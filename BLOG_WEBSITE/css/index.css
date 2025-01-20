@@ -1,0 +1,87 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fcecd5;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header styles */
+h1 {
+    color: #000000;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Post title styles */
+h2 {
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Paragraph styles */
+p {
+    margin: 10px 0;
+}
+
+/* Small text styles */
+small {
+    color: #777;
+}
+
+/* Button styles */
+button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green */
+    transform: scale(1.05);
+}
+
+button:disabled {
+    background-color: #ccc; /* Light gray for disabled buttons */
+    cursor: not-allowed;
+}
+
+/* Link styles */
+a {
+    text-decoration: none;
+}
+
+/* Horizontal rule styles */
+hr {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    button {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
+

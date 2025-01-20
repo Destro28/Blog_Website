@@ -1,0 +1,139 @@
+
+h1 {
+    text-align: center; /* Aligning header text to center */
+    margin-top: 0; /* Removing default margin */
+    color: rgb(0, 0, 0); /* Setting header color */
+    
+}
+body
+{
+    background-color: #E2CAA8; /* Setting background color */
+}
+
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px black;
+    width: 400px;
+
+    /* Center the form horizontally */
+    margin: 0 auto; /* This centers it horizontally */
+
+    /* Center the form vertically */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+/* form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px black;
+    width: 400px;
+    margin-top: auto;
+    /* margin-top: 25%; */
+    
+    /* margin-left: 0px;
+
+} */
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="content"],
+input[type="password"]
+ {
+    width: calc(100% - 14px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #9ef4a1;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border: 5px;
+    border-color: #000000;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #608BC1;
+    color: #000000;
+
+    border: 5px;
+    border-color: #000000;
+}
+
+.error {
+    color: #e60b21;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.back-to-home {
+    display: block; /* Make it display as a block element for better positioning */
+    text-align: center; /* Center the text within the button */
+    margin-top: 20px; /* Add some spacing between the form and the button */
+    padding: 10px 20px; /*Adjust padding for the button's appearance*/
+    background-color: #000000; /* Set background color */
+    color: #fff; /* Set text color */
+    border: none; /* Remove border */
+    border-radius: 10px; /* Add rounded corners */
+    text-decoration: none; /* Remove underline from the link */
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Add hover effect */
+
+
+
+     /* Position the button at the bottom of the page */
+     position: absolute;
+     bottom: 20px; /* Adjust the bottom margin as needed */
+     left: 20px; /* Adjust the right margin as needed */
+}
+
+.back-to-home:hover {
+    background-color: #ffffff; /* Change background color on hover */
+    color: #000000;
+}
+
+.back-to-home2 {
+    display: block; /* Make it display as a block element for better positioning */
+    text-align: center; /* Center the text within the button */
+    margin-top: 20px; /* Add some spacing between the form and the button */
+    padding: 10px 20px; /*Adjust padding for the button's appearance*/
+    background-color: #000000; /* Set background color */
+    color: #fff; /* Set text color */
+    border: none; /* Remove border */
+    border-radius: 10px; /* Add rounded corners */
+    text-decoration: none; /* Remove underline from the link */
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Add hover effect */
+
+
+
+     /* Position the button at the bottom of the page */
+     position: absolute;
+     top: 0px; /* Adjust the bottom margin as needed */
+     left: 20px; /* Adjust the right margin as needed */
+}
+
+.back-to-home2:hover {
+    background-color: #ffffff; /* Change background color on hover */
+    color: #000000;
+}
